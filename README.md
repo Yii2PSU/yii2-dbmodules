@@ -5,6 +5,9 @@
 Contorller ของ Module ลูก ต้อง Extends มาที
 ```php
 use psudev\dbmodules\components\Controller
+
+class DefaultController extends Controller
+...
 ```
 
 
