@@ -2,7 +2,7 @@
 
 namespace psudev\dbmodules\controllers;
 
-use psudev\dbmudules\components\Controller;
+use psudev\dbmodules\components\Controller;
 
 class DefaultController extends Controller
 {

@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use app\assets\AppAsset;
+use psudev\dbmodules\assets\AppAsset;
 use psudev\dbmodules\models\Module;
 
 AppAsset::register($this);
@@ -64,14 +64,14 @@ AppAsset::register($this);
             <?php
               $modules = Module::findAllActive();
               foreach ($modules as $key => $module) :
-                echo Html::a('<i class="'.$module->icon.'"></i> '.$module->title, 
-                  ['/mis/'.$module->name],
+                echo Html::a('<i class="'.$module->icon.'"></i> '.$module->title,
+                  ["/psudev/".$module->name],
                   ['class'=>'list-group-item']
                 );
              endforeach; ?>
              <?php
              echo Html::tag('hr');
-             echo Html::a('<i class="glyphicon glyphicon-cog"></i> Module settings', ['/mis/settings'],['class'=>'btn btn-primary btn-block']);
+             echo Html::a('<i class="glyphicon glyphicon-cog"></i> Module settings', ["/psudev/settings"],['class'=>'btn btn-primary btn-block']);
              ?>
           </div>
         </div>

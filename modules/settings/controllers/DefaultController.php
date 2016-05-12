@@ -5,7 +5,7 @@ namespace psudev\dbmodules\modules\settings\controllers;
 use Yii;
 use psudev\dbmodules\models\Module;
 use psudev\dbmodules\models\ModuleSearch;
-use psudev\dbmudules\components\Controller;
+use psudev\dbmodules\components\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 

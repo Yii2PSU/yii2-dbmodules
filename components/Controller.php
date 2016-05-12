@@ -4,7 +4,7 @@ namespace psudev\dbmodules\components;
 
 use Yii;
 
-class Controller extends \psudev\dbmudules\components\Controller
+class Controller extends \yii\web\Controller
 {
 	public function init()
 	{

@@ -1,6 +1,6 @@
 <?php
 
-namespace mymis;
+namespace psudev\dbmodules;
 
 use Yii;
 use psudev\dbmodules\models\Module;
@@ -21,7 +21,7 @@ class MainModule extends \yii\base\Module
 
         //print_r($this->getModules());
 
-        $this->layoutPath = Yii::getAlias('@mymis/views/layouts');
+        $this->layoutPath = Yii::getAlias('@psudev/dbmodules/views/layouts');
         $this->layout = 'main';
 
     }
