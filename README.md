@@ -2,8 +2,11 @@
 ระบบจัดการโมดูล
 
 ## Usage
-Require the package:
-Contorller ของ Module ลูก ต้อง Extends มาที psudev\dbmodules\components\Controller
+Contorller ของ Module ลูก ต้อง Extends มาที
+```php
+use psudev\dbmodules\components\Controller
+```
+
 
 
 
