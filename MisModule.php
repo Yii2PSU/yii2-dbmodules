@@ -3,11 +3,11 @@
 namespace mymis;
 
 use Yii;
-use mymis\models\Module;
+use psudev\dbmodules\models\Module;
 
 class MisModule extends \yii\base\Module
 {
-    public $controllerNamespace = 'mymis\controllers';
+    public $controllerNamespace = 'psudev\dbmodules\controllers';
 
     public $activeModules;
 
@@ -17,7 +17,7 @@ class MisModule extends \yii\base\Module
 
         $this->setModules($this->activeModules());
 
-        $this->setModule('settings', ['class' => 'mymis\modules\settings\SettingsModule']);
+        $this->setModule('settings', ['class' => 'psudev\dbmodules\modules\settings\SettingsModule']);
 
         //print_r($this->getModules());
 

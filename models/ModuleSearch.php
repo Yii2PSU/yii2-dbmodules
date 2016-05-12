@@ -1,14 +1,14 @@
 <?php
 
-namespace mymis\models;
+namespace psudev\dbmodules\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use mymis\models\Module;
+use psudev\dbmodules\models\Module;
 
 /**
- * ModuleSearch represents the model behind the search form about `mymis\models\Module`.
+ * ModuleSearch represents the model behind the search form about `psudev\dbmodules\models\Module`.
  */
 class ModuleSearch extends Module
 {

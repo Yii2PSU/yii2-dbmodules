@@ -1,8 +1,8 @@
 <?php
 
-namespace mymis\modules\news\controllers;
+namespace psudev\dbmodules\modules\news\controllers;
 
-use yii\web\Controller;
+use psudev\dbmudules\components\Controller;
 
 class DefaultController extends Controller
 {

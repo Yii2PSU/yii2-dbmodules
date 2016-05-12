@@ -1,6 +1,6 @@
 <?php
 
-namespace mymis\models;
+namespace psudev\dbmodules\models;
 
 use Yii;
 

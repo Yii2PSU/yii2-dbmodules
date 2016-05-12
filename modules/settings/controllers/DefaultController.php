@@ -1,11 +1,11 @@
 <?php
 
-namespace mymis\modules\settings\controllers;
+namespace psudev\dbmodules\modules\settings\controllers;
 
 use Yii;
-use mymis\models\Module;
-use mymis\models\ModuleSearch;
-use yii\web\Controller;
+use psudev\dbmodules\models\Module;
+use psudev\dbmodules\models\ModuleSearch;
+use psudev\dbmudules\components\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 

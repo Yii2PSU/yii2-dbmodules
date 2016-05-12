@@ -1,10 +1,10 @@
 <?php
 
-namespace mymis\modules\settings;
+namespace psudev\dbmodules\modules\settings;
 
 class SettingsModule extends \yii\base\Module
 {
-    public $controllerNamespace = 'mymis\modules\settings\controllers';
+    public $controllerNamespace = 'psudev\dbmodules\modules\settings\controllers';
 
     public function init()
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace mymis\modules\news;
+namespace psudev\dbmodules\modules\news;
 
 class NewsModules extends \yii\base\Module
 {
-    public $controllerNamespace = 'mymis\modules\news\controllers';
+    public $controllerNamespace = 'psudev\dbmodules\modules\news\controllers';
 
     public $settings = [];
 

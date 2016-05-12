@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model mymis\models\Module */
+/* @var $model psudev\dbmodules\models\Module */
 
 $this->title = 'Create Module';
 $this->params['breadcrumbs'][] = ['label' => 'Modules', 'url' => ['index']];

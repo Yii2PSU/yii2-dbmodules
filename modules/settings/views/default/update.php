@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model mymis\models\Module */
+/* @var $model psudev\dbmodules\models\Module */
 
 $this->title = 'Update Module: ' . ' ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Modules', 'url' => ['index']];

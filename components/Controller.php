@@ -1,10 +1,10 @@
 <?php
 
-namespace mymis\components;
+namespace psudev\dbmodules\components;
 
 use Yii;
 
-class Controller extends \yii\web\Controller
+class Controller extends \psudev\dbmudules\components\Controller
 {
 	public function init()
 	{

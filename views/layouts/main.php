@@ -8,7 +8,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
-use mymis\models\Module;
+use psudev\dbmodules\models\Module;
 
 AppAsset::register($this);
 ?>
