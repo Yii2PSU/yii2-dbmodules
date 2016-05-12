@@ -1,12 +1,12 @@
 {
-    "name": "yii2psu/yii2-dbmodules",
+    "name": "psudev/yii2-dbmodules",
     "description": "Modules DB System",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "GPL-3.0",
     "authors": [
         {
-            "name": "psu",
+            "name": "PSU Developer",
             "email": "ahamad.jedu@gmail.com"
         }
     ],
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yii2psu\\dbmodules\\": ""
+            "psudev\\dbmodules\\": ""
         }
     },
     "extra": {
