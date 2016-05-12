@@ -7,4 +7,6 @@ Contorller ของ Module ลูก ต้อง Extends มาที psudev\d
 
 
 by Surakit & Madone
+
 PSU DEVLOPMENT
+email : ahamad.jedu@gmail.com
