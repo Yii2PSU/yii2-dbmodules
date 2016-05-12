@@ -5,7 +5,7 @@ namespace mymis;
 use Yii;
 use psudev\dbmodules\models\Module;
 
-class MisModule extends \yii\base\Module
+class MainModule extends \yii\base\Module
 {
     public $controllerNamespace = 'psudev\dbmodules\controllers';
 
